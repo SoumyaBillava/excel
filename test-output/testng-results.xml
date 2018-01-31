@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser Maximizedabout:blank]]>
+    </line>
+    <line>
+      <![CDATA[Application started]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12507" started-at="2017-08-18T11:09:27Z" finished-at="2017-08-18T11:09:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12507" started-at="2017-08-18T11:09:27Z" finished-at="2017-08-18T11:09:39Z">
+      <class name="ReporterDemo">
+        <test-method status="PASS" signature="newReport()[pri:0, instance:ReporterDemo@d8355a8]" name="newReport" duration-ms="11" started-at="2017-08-18T16:39:27Z" finished-at="2017-08-18T16:39:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newReport -->
+        <test-method status="PASS" signature="testReport()[pri:0, instance:ReporterDemo@d8355a8]" name="testReport" duration-ms="12464" started-at="2017-08-18T16:39:27Z" finished-at="2017-08-18T16:39:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+            <line>
+              <![CDATA[Browser Maximizedabout:blank]]>
+            </line>
+            <line>
+              <![CDATA[Application started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testReport -->
+      </class> <!-- ReporterDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
